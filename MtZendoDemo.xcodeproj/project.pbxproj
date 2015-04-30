@@ -54,13 +54,6 @@
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = MtZendoLib;
 		};
-		DC4062BE1AF2517F00AEB751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCDA23081AC56E190024CCD9;
-			remoteInfo = MtZendoDemo;
-		};
 		DC4062C01AF2517F00AEB751 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
@@ -223,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				DC4062BD1AF2517F00AEB751 /* libMtZendoLib.a */,
-				DC4062BF1AF2517F00AEB751 /* MtZendoDemo.app */,
 				DC4062C11AF2517F00AEB751 /* LibDemoTests.xctest */,
 			);
 			name = Products;
@@ -318,13 +310,6 @@
 			fileType = archive.ar;
 			path = libMtZendoLib.a;
 			remoteRef = DC4062BC1AF2517F00AEB751 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DC4062BF1AF2517F00AEB751 /* MtZendoDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MtZendoDemo.app;
-			remoteRef = DC4062BE1AF2517F00AEB751 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		DC4062C11AF2517F00AEB751 /* LibDemoTests.xctest */ = {
@@ -593,7 +578,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtZendoDemo.app/MtZendoDemo";
-				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Debug;
 		};
@@ -622,7 +606,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtZendoDemo.app/MtZendoDemo";
-				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Release;
 		};
