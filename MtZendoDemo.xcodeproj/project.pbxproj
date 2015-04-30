@@ -15,6 +15,28 @@
 		DC4062941AF24E9F00AEB751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4062931AF24E9F00AEB751 /* Images.xcassets */; };
 		DC4062971AF24E9F00AEB751 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4062951AF24E9F00AEB751 /* LaunchScreen.xib */; };
 		DC4062A31AF24E9F00AEB751 /* MtZendoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4062A21AF24E9F00AEB751 /* MtZendoDemoTests.m */; };
+		DCD70AB21AF251D90069CA09 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD70AB11AF251D90069CA09 /* CoreMotion.framework */; };
+		DCD70AB31AF251DC0069CA09 /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4062BD1AF2517F00AEB751 /* libMtZendoLib.a */; };
+		DCD70AB81AF251FB0069CA09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD70AB71AF251FB0069CA09 /* QuartzCore.framework */; };
+		DCD70ABA1AF252000069CA09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD70AB91AF252000069CA09 /* CoreGraphics.framework */; };
+		DCD70AC81AF2531E0069CA09 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70ABE1AF2531E0069CA09 /* ProfileViewController.m */; };
+		DCD70AC91AF2531E0069CA09 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70ABE1AF2531E0069CA09 /* ProfileViewController.m */; };
+		DCD70ACA1AF2531E0069CA09 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD70ABF1AF2531E0069CA09 /* ProfileViewController.xib */; };
+		DCD70ACB1AF2531E0069CA09 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD70ABF1AF2531E0069CA09 /* ProfileViewController.xib */; };
+		DCD70ACC1AF2531E0069CA09 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70AC11AF2531E0069CA09 /* RootViewController.m */; };
+		DCD70ACD1AF2531E0069CA09 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70AC11AF2531E0069CA09 /* RootViewController.m */; };
+		DCD70ACE1AF2531E0069CA09 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70AC31AF2531E0069CA09 /* ShapeViewController.m */; };
+		DCD70ACF1AF2531E0069CA09 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70AC31AF2531E0069CA09 /* ShapeViewController.m */; };
+		DCD70AD01AF2531E0069CA09 /* ShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD70AC41AF2531E0069CA09 /* ShapeViewController.xib */; };
+		DCD70AD11AF2531E0069CA09 /* ShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD70AC41AF2531E0069CA09 /* ShapeViewController.xib */; };
+		DCD70AD21AF2531E0069CA09 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70AC61AF2531E0069CA09 /* TextViewController.m */; };
+		DCD70AD31AF2531E0069CA09 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD70AC61AF2531E0069CA09 /* TextViewController.m */; };
+		DCD70AD41AF2531E0069CA09 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD70AC71AF2531E0069CA09 /* TextViewController.xib */; };
+		DCD70AD51AF2531E0069CA09 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD70AC71AF2531E0069CA09 /* TextViewController.xib */; };
+		DCD70AD91AF254020069CA09 /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4062BD1AF2517F00AEB751 /* libMtZendoLib.a */; };
+		DCD70ADA1AF2540B0069CA09 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD70AB11AF251D90069CA09 /* CoreMotion.framework */; };
+		DCD70ADB1AF254120069CA09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD70AB71AF251FB0069CA09 /* QuartzCore.framework */; };
+		DCD70ADC1AF254170069CA09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD70AB91AF252000069CA09 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +46,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = DC40627F1AF24E9F00AEB751;
 			remoteInfo = MtZendoDemo;
+		};
+		DC4062BC1AF2517F00AEB751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = MtZendoLib;
+		};
+		DC4062BE1AF2517F00AEB751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCDA23081AC56E190024CCD9;
+			remoteInfo = MtZendoDemo;
+		};
+		DC4062C01AF2517F00AEB751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCDA23261AC56E190024CCD9;
+			remoteInfo = LibDemoTests;
+		};
+		DCD70ABB1AF252170069CA09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = MtZendoLib;
+		};
+		DCD70AD71AF253FF0069CA09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = MtZendoLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,6 +99,22 @@
 		DC40629C1AF24E9F00AEB751 /* MtZendoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtZendoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4062A11AF24E9F00AEB751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4062A21AF24E9F00AEB751 /* MtZendoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtZendoDemoTests.m; sourceTree = "<group>"; };
+		DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MtZendoLib.xcodeproj; path = DigitalMtLib/MtZendoLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		DCD70AB11AF251D90069CA09 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DCD70AB71AF251FB0069CA09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCD70AB91AF252000069CA09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCD70ABD1AF2531E0069CA09 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		DCD70ABE1AF2531E0069CA09 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		DCD70ABF1AF2531E0069CA09 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		DCD70AC01AF2531E0069CA09 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DCD70AC11AF2531E0069CA09 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DCD70AC21AF2531E0069CA09 /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		DCD70AC31AF2531E0069CA09 /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		DCD70AC41AF2531E0069CA09 /* ShapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapeViewController.xib; sourceTree = "<group>"; };
+		DCD70AC51AF2531E0069CA09 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		DCD70AC61AF2531E0069CA09 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		DCD70AC71AF2531E0069CA09 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		DCD70AD61AF253F00069CA09 /* MtZendoLib.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtZendoLib.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +122,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD70ABA1AF252000069CA09 /* CoreGraphics.framework in Frameworks */,
+				DCD70AB81AF251FB0069CA09 /* QuartzCore.framework in Frameworks */,
+				DCD70AB31AF251DC0069CA09 /* libMtZendoLib.a in Frameworks */,
+				DCD70AB21AF251D90069CA09 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +133,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD70ADC1AF254170069CA09 /* CoreGraphics.framework in Frameworks */,
+				DCD70ADB1AF254120069CA09 /* QuartzCore.framework in Frameworks */,
+				DCD70ADA1AF2540B0069CA09 /* CoreMotion.framework in Frameworks */,
+				DCD70AD91AF254020069CA09 /* libMtZendoLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +164,22 @@
 		DC4062821AF24E9F00AEB751 /* MtZendoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */,
 				DC4062871AF24E9F00AEB751 /* AppDelegate.h */,
 				DC4062881AF24E9F00AEB751 /* AppDelegate.m */,
 				DC40628D1AF24E9F00AEB751 /* ViewController.h */,
 				DC40628E1AF24E9F00AEB751 /* ViewController.m */,
+				DCD70ABD1AF2531E0069CA09 /* ProfileViewController.h */,
+				DCD70ABE1AF2531E0069CA09 /* ProfileViewController.m */,
+				DCD70ABF1AF2531E0069CA09 /* ProfileViewController.xib */,
+				DCD70AC01AF2531E0069CA09 /* RootViewController.h */,
+				DCD70AC11AF2531E0069CA09 /* RootViewController.m */,
+				DCD70AC21AF2531E0069CA09 /* ShapeViewController.h */,
+				DCD70AC31AF2531E0069CA09 /* ShapeViewController.m */,
+				DCD70AC41AF2531E0069CA09 /* ShapeViewController.xib */,
+				DCD70AC51AF2531E0069CA09 /* TextViewController.h */,
+				DCD70AC61AF2531E0069CA09 /* TextViewController.m */,
+				DCD70AC71AF2531E0069CA09 /* TextViewController.xib */,
 				DC4062901AF24E9F00AEB751 /* Main.storyboard */,
 				DC4062931AF24E9F00AEB751 /* Images.xcassets */,
 				DC4062951AF24E9F00AEB751 /* LaunchScreen.xib */,
@@ -99,7 +192,11 @@
 		DC4062831AF24E9F00AEB751 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCD70AB91AF252000069CA09 /* CoreGraphics.framework */,
+				DCD70AB71AF251FB0069CA09 /* QuartzCore.framework */,
+				DCD70AB11AF251D90069CA09 /* CoreMotion.framework */,
 				DC4062841AF24E9F00AEB751 /* Info.plist */,
+				DCD70AD61AF253F00069CA09 /* MtZendoLib.pch */,
 				DC4062851AF24E9F00AEB751 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -122,6 +219,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DC4062B71AF2517F00AEB751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4062BD1AF2517F00AEB751 /* libMtZendoLib.a */,
+				DC4062BF1AF2517F00AEB751 /* MtZendoDemo.app */,
+				DC4062C11AF2517F00AEB751 /* LibDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +243,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DCD70ABC1AF252170069CA09 /* PBXTargetDependency */,
 			);
 			name = MtZendoDemo;
 			productName = MtZendoDemo;
@@ -153,6 +261,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DCD70AD81AF253FF0069CA09 /* PBXTargetDependency */,
 				DC40629E1AF24E9F00AEB751 /* PBXTargetDependency */,
 			);
 			name = MtZendoDemoTests;
@@ -189,6 +298,12 @@
 			mainGroup = DC4062771AF24E9F00AEB751;
 			productRefGroup = DC4062811AF24E9F00AEB751 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DC4062B71AF2517F00AEB751 /* Products */;
+					ProjectRef = DC4062B61AF2517F00AEB751 /* MtZendoLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DC40627F1AF24E9F00AEB751 /* MtZendoDemo */,
@@ -197,6 +312,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DC4062BD1AF2517F00AEB751 /* libMtZendoLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMtZendoLib.a;
+			remoteRef = DC4062BC1AF2517F00AEB751 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC4062BF1AF2517F00AEB751 /* MtZendoDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MtZendoDemo.app;
+			remoteRef = DC4062BE1AF2517F00AEB751 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC4062C11AF2517F00AEB751 /* LibDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LibDemoTests.xctest;
+			remoteRef = DC4062C01AF2517F00AEB751 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		DC40627E1AF24E9F00AEB751 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -204,7 +343,10 @@
 			files = (
 				DC4062921AF24E9F00AEB751 /* Main.storyboard in Resources */,
 				DC4062971AF24E9F00AEB751 /* LaunchScreen.xib in Resources */,
+				DCD70ACA1AF2531E0069CA09 /* ProfileViewController.xib in Resources */,
+				DCD70AD41AF2531E0069CA09 /* TextViewController.xib in Resources */,
 				DC4062941AF24E9F00AEB751 /* Images.xcassets in Resources */,
+				DCD70AD01AF2531E0069CA09 /* ShapeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +354,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD70AD51AF2531E0069CA09 /* TextViewController.xib in Resources */,
+				DCD70AD11AF2531E0069CA09 /* ShapeViewController.xib in Resources */,
+				DCD70ACB1AF2531E0069CA09 /* ProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +367,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD70ACE1AF2531E0069CA09 /* ShapeViewController.m in Sources */,
 				DC4062891AF24E9F00AEB751 /* AppDelegate.m in Sources */,
 				DC4062861AF24E9F00AEB751 /* main.m in Sources */,
+				DCD70AD21AF2531E0069CA09 /* TextViewController.m in Sources */,
+				DCD70ACC1AF2531E0069CA09 /* RootViewController.m in Sources */,
 				DC40628F1AF24E9F00AEB751 /* ViewController.m in Sources */,
 				DC40628C1AF24E9F00AEB751 /* MtZendoDemo.xcdatamodeld in Sources */,
+				DCD70AC81AF2531E0069CA09 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD70AD31AF2531E0069CA09 /* TextViewController.m in Sources */,
+				DCD70ACF1AF2531E0069CA09 /* ShapeViewController.m in Sources */,
+				DCD70AC91AF2531E0069CA09 /* ProfileViewController.m in Sources */,
 				DC4062A31AF24E9F00AEB751 /* MtZendoDemoTests.m in Sources */,
+				DCD70ACD1AF2531E0069CA09 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +397,16 @@
 			isa = PBXTargetDependency;
 			target = DC40627F1AF24E9F00AEB751 /* MtZendoDemo */;
 			targetProxy = DC40629D1AF24E9F00AEB751 /* PBXContainerItemProxy */;
+		};
+		DCD70ABC1AF252170069CA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MtZendoLib;
+			targetProxy = DCD70ABB1AF252170069CA09 /* PBXContainerItemProxy */;
+		};
+		DCD70AD81AF253FF0069CA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MtZendoLib;
+			targetProxy = DCD70AD71AF253FF0069CA09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,9 +516,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MtZendoDemo/MtZendoLib.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
 				INFOPLIST_FILE = MtZendoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GithubProjects-cucnnweogqsywaexbxfmqlredrub/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Debug;
 		};
@@ -363,9 +542,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MtZendoDemo/MtZendoLib.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
 				INFOPLIST_FILE = MtZendoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GithubProjects-cucnnweogqsywaexbxfmqlredrub/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Release;
 		};
@@ -377,14 +572,28 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MtZendoDemo/MtZendoLib.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
 				INFOPLIST_FILE = MtZendoDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtZendoDemo.app/MtZendoDemo";
+				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Debug;
 		};
@@ -396,10 +605,24 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MtZendoDemo/MtZendoLib.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
 				INFOPLIST_FILE = MtZendoDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtZendoDemo.app/MtZendoDemo";
+				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Release;
 		};
@@ -422,6 +645,7 @@
 				DC4062A81AF24E9F00AEB751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4062A91AF24E9F00AEB751 /* Build configuration list for PBXNativeTarget "MtZendoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +654,7 @@
 				DC4062AB1AF24E9F00AEB751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

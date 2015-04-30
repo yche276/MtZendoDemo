@@ -2,12 +2,14 @@
 //  AppDelegate.h
 //  MtZendoDemo
 //
-//  Created by 陈阅 on 4/30/15.
+//  Created by Victor Chen on 4/30/15.
 //  Copyright (c) 2015 Mt Zendo Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+
+#import "DigitalMt.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
