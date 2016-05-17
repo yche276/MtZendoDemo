@@ -267,7 +267,7 @@
 		DC4062781AF24E9F00AEB751 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Mt Zendo Inc.";
 				TargetAttributes = {
 					DC40627F1AF24E9F00AEB751 = {
@@ -436,6 +436,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -510,14 +511,12 @@
 				);
 				INFOPLIST_FILE = MtZendoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GithubProjects-cucnnweogqsywaexbxfmqlredrub/Build/Products/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtzendo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../**";
 			};
@@ -536,14 +535,12 @@
 				);
 				INFOPLIST_FILE = MtZendoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GithubProjects-cucnnweogqsywaexbxfmqlredrub/Build/Products/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtzendo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../**";
 			};
@@ -576,6 +573,7 @@
 					XCTest,
 					"-all_load",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtzendo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtZendoDemo.app/MtZendoDemo";
 			};
@@ -604,6 +602,7 @@
 					XCTest,
 					"-all_load",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtzendo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtZendoDemo.app/MtZendoDemo";
 			};

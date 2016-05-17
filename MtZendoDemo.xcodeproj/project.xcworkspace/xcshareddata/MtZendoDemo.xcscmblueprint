@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E6F4C9C0A8A1E2F26D7708294021196823F7AA5E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E6F4C9C0A8A1E2F26D7708294021196823F7AA5E" : 0,
+    "5FA84BEB106DD8B8B60C41BE6201307DB882E652" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "09F0B2ED-504D-4FDF-B537-4E83314385D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E6F4C9C0A8A1E2F26D7708294021196823F7AA5E" : "MtZendoDemo",
+    "5FA84BEB106DD8B8B60C41BE6201307DB882E652" : "MtZendoDemoDigitalMtLib"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MtZendoDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MtZendoDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yche276\/DigitalMtLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FA84BEB106DD8B8B60C41BE6201307DB882E652"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yche276\/MtZendoDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6F4C9C0A8A1E2F26D7708294021196823F7AA5E"
+    }
+  ]
+}
