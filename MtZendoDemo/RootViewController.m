@@ -11,6 +11,9 @@
 #import "ShapeViewController.h"
 #import "ProfileViewController.h"
 
+#import "MZDateSelectViewController.h"
+#import "MZTimeSelectViewController.h"
+
 @interface RootViewController ()
 @property (nonatomic, strong) NSArray *sectionTitles;
 @property (nonatomic, strong) NSArray *rowTitles;
@@ -29,7 +32,7 @@
     self.rowTitles = @[
                        @[@"Infomation"],//section 1
                        @[@"Hexagon",@"Oval",@"Star",@"Rectangle"],//section 2
-                       @[@"Profile Photo View"],
+                       @[@"Profile Photo View", @"Date Selector", @"Time Selector"],
                        ];
 }
 
@@ -178,6 +181,24 @@
                 
             }
                 break;
+            case 1://date selector
+            {
+                
+                MZDateSelectViewController *controller = [[MZDateSelectViewController alloc] initWithNibName:NSStringFromClass([MZDateSelectViewController class])
+                                                                                                      bundle:nil];
+                [self.navigationController pushViewController:controller animated:YES];
+                
+            }
+                break;
+            case 2://time selector
+            {
+                MZTimeSelectViewController *controller = [[MZTimeSelectViewController alloc] initWithNibName:NSStringFromClass([MZTimeSelectViewController class])
+                                                                                                      bundle:nil];
+                [self.navigationController pushViewController:controller animated:YES];
+            }
+                break;
+                
+                
             default:
             {
                 

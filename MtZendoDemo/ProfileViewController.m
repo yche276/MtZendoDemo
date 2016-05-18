@@ -20,6 +20,8 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     [self.profilePhotoView setProfilePhoto:[UIImage imageNamed:@"Bear"]];
     
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
